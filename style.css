@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Raleway:200,400&display=swap');
+
+body {
+  background-color: #f0eded;
+  color: #998b8a;
+  font-family: lato, sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+h1, h2, h3 {
+  color: #6b3e39;
+  font-family: raleway, sans-serif;
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2, h3 {
+  color: #9d8070;
+}
+
+a {
+  color: #466a70;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+.container {
+  width: 700px;
+  margin: 0px auto;
+}
+
+.card {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 10px 40px #baa29b;
+  padding: 40px;
+  margin: 25px auto;
+}
+
+.button-md {
+  background-color: rgba(70,106,112,0.6);
+  border-radius: 4px;
+  color: #f0eded;
+  padding: 10px;
+}
+
+.button-md:hover {
+  background-color: #f0eded;
+  border: thin solid rgba(70,106,112,0.6);
+  color: rgba(70,106,112,0.6);
+  font-weight: normal;
+}
+
+.image-circle {
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 10px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
